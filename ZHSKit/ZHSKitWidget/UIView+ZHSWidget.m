@@ -10,7 +10,6 @@
 
 @implementation UIView (ZHSWidget)
 -(UIView * (^)(CGFloat x,CGFloat y,CGFloat width,CGFloat height)) zhs_frame{
-
     return ^(CGFloat x,CGFloat y,CGFloat width,CGFloat height){
         self.frame = CGRectMake(x, y, width, height);
         return self;

@@ -32,6 +32,7 @@
 		B12CE64A1F53EF34008ABF74 /* UIView+ZHSWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHSWidget.m"; sourceTree = "<group>"; };
 		B12CE64C1F53F2FD008ABF74 /* UIButton+ZHSWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZHSWidget.h"; sourceTree = "<group>"; };
 		B12CE64D1F53F2FD008ABF74 /* UIButton+ZHSWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZHSWidget.m"; sourceTree = "<group>"; };
+		B12CE6521F540C13008ABF74 /* ZHSWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHSWidget.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 				B12CE64A1F53EF34008ABF74 /* UIView+ZHSWidget.m */,
 				B12CE64C1F53F2FD008ABF74 /* UIButton+ZHSWidget.h */,
 				B12CE64D1F53F2FD008ABF74 /* UIButton+ZHSWidget.m */,
+				B12CE6521F540C13008ABF74 /* ZHSWidget.h */,
 			);
 			path = ZHSKitWidget;
 			sourceTree = "<group>";

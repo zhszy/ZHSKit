@@ -11,7 +11,6 @@
 @implementation UIButton (ZHSWidget)
 
 -(UIButton * (^)(NSString *title)) zhs_buttonTitle{
-    
     return ^(NSString *title){
         [self setTitle:title forState:UIControlStateNormal];
         return self;
@@ -24,7 +23,6 @@
     };
 }
 -(UIButton * (^)(UIImage *image,UIControlState status)) zhs_buttonImage{
-    
     return ^(UIImage *image,UIControlState status){
         [self setImage:image forState:UIControlStateNormal];
         return self;

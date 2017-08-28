@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIButton+ZHSWidget.h"
-#import "UIView+ZHSWidget.h"
+#import "ZHSWidget.h"
 @interface ViewController ()
 
 @end
@@ -20,7 +19,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.zhs_frame(0,100,300,300).zhs_backgroundColor([UIColor magentaColor]);
+    btn.zhs_frame(0,100,300,300).zhs_backgroundColor([UIColor blackColor]);
+    btn.zhs_titleColor([UIColor redColor]).zhs_buttonTitle(@"hello");
     [self.view addSubview:btn];
 }
 
