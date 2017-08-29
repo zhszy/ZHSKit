@@ -15,6 +15,9 @@
 		B12CE6411F53EE18008ABF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12CE63F1F53EE18008ABF74 /* LaunchScreen.storyboard */; };
 		B12CE64B1F53EF34008ABF74 /* UIView+ZHSWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = B12CE64A1F53EF34008ABF74 /* UIView+ZHSWidget.m */; };
 		B12CE64E1F53F2FD008ABF74 /* UIButton+ZHSWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = B12CE64D1F53F2FD008ABF74 /* UIButton+ZHSWidget.m */; };
+		B12CE6571F55003C008ABF74 /* UITableView+ZHSWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = B12CE6561F55003C008ABF74 /* UITableView+ZHSWidget.m */; };
+		B12CE65A1F550099008ABF74 /* ZHSTableViewBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B12CE6591F550099008ABF74 /* ZHSTableViewBuffer.m */; };
+		B12CE65D1F55053E008ABF74 /* UILabel+ZHSWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = B12CE65C1F55053E008ABF74 /* UILabel+ZHSWidget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,12 @@
 		B12CE64C1F53F2FD008ABF74 /* UIButton+ZHSWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZHSWidget.h"; sourceTree = "<group>"; };
 		B12CE64D1F53F2FD008ABF74 /* UIButton+ZHSWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZHSWidget.m"; sourceTree = "<group>"; };
 		B12CE6521F540C13008ABF74 /* ZHSWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHSWidget.h; sourceTree = "<group>"; };
+		B12CE6551F55003C008ABF74 /* UITableView+ZHSWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ZHSWidget.h"; sourceTree = "<group>"; };
+		B12CE6561F55003C008ABF74 /* UITableView+ZHSWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ZHSWidget.m"; sourceTree = "<group>"; };
+		B12CE6581F550099008ABF74 /* ZHSTableViewBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHSTableViewBuffer.h; sourceTree = "<group>"; };
+		B12CE6591F550099008ABF74 /* ZHSTableViewBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHSTableViewBuffer.m; sourceTree = "<group>"; };
+		B12CE65B1F55053E008ABF74 /* UILabel+ZHSWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZHSWidget.h"; sourceTree = "<group>"; };
+		B12CE65C1F55053E008ABF74 /* UILabel+ZHSWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZHSWidget.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +103,12 @@
 				B12CE64A1F53EF34008ABF74 /* UIView+ZHSWidget.m */,
 				B12CE64C1F53F2FD008ABF74 /* UIButton+ZHSWidget.h */,
 				B12CE64D1F53F2FD008ABF74 /* UIButton+ZHSWidget.m */,
+				B12CE65B1F55053E008ABF74 /* UILabel+ZHSWidget.h */,
+				B12CE65C1F55053E008ABF74 /* UILabel+ZHSWidget.m */,
+				B12CE6551F55003C008ABF74 /* UITableView+ZHSWidget.h */,
+				B12CE6561F55003C008ABF74 /* UITableView+ZHSWidget.m */,
+				B12CE6581F550099008ABF74 /* ZHSTableViewBuffer.h */,
+				B12CE6591F550099008ABF74 /* ZHSTableViewBuffer.m */,
 				B12CE6521F540C13008ABF74 /* ZHSWidget.h */,
 			);
 			path = ZHSKitWidget;
@@ -171,9 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12CE65D1F55053E008ABF74 /* UILabel+ZHSWidget.m in Sources */,
 				B12CE6391F53EE18008ABF74 /* ViewController.m in Sources */,
+				B12CE65A1F550099008ABF74 /* ZHSTableViewBuffer.m in Sources */,
 				B12CE64E1F53F2FD008ABF74 /* UIButton+ZHSWidget.m in Sources */,
 				B12CE6361F53EE18008ABF74 /* AppDelegate.m in Sources */,
+				B12CE6571F55003C008ABF74 /* UITableView+ZHSWidget.m in Sources */,
 				B12CE64B1F53EF34008ABF74 /* UIView+ZHSWidget.m in Sources */,
 				B12CE6331F53EE18008ABF74 /* main.m in Sources */,
 			);
@@ -332,6 +350,7 @@
 				B12CE6471F53EE18008ABF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
