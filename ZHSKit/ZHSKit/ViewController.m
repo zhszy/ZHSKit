@@ -19,8 +19,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.zhs_frame(0,100,300,300).zhs_backgroundColor([UIColor blackColor]);
-    btn.zhs_titleColor([UIColor redColor]).zhs_buttonTitle(@"hello");
+    btn.zhs_titleColor([UIColor magentaColor],UIControlStateNormal)
+    .zhs_title(@"hello",UIControlStateNormal)
+    .zhs_frame(100,100,100,100);
+    btn.zhs_actionBlock(UIControlEventTouchUpInside, ^(UIButton *sender){
+    
+    });
     [self.view addSubview:btn];
 }
 

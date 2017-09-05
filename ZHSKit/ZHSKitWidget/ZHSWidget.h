@@ -9,7 +9,7 @@
 #ifndef ZHSWidget_h
 #define ZHSWidget_h
 
-#import "UIButton+ZHSWidget.h"
 #import "UIView+ZHSWidget.h"
+#import "UIButton+ZHSWidget.h"
 
 #endif /* ZHSWidget_h */
